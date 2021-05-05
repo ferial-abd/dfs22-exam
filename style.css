@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box; 
+}
+
+body {
+
+	margin: 0;
+	padding: 0;
+	font-weight: 400; 
+	font-size: 18px;
+	color: black;
+}
+/* page d'acceuil */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	clear: both;
+}
+.banniere {
+
+	background-image: url('images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 220px;
+	margin-bottom: 80px;
+}
+
+
+.logo {
+	float: left;
+	width: 50%;
+	font-weight: 700; 
+	font-size: 22px;
+}
+
+header nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+header nav a {
+	text-decoration: none;
+	margin-left: 40px;
+	font-weight: 700;
+    color: black;
+}
+
+.banniere h1, .banniere p {
+	width: 62%;
+}
+
+.banniere h1 {
+	margin: 0; 
+	margin-bottom: 15px;
+	margin-top: 130px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.bouton {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.bouton a {
+	display: inline-block; 
+	background-color: #F24A00;
+	padding: 15px; 
+	border-radius: 5px; 
+	text-decoration: none;
+	font-size: 16px;
+}
+
+/* page secondaire */
+main .titre {
+	margin-bottom: 40px;
+}
+
+main .titre h2, main .titre p {
+	text-align: center;
+	margin: 0; 
+}
+
+main .titre h2 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+
+main section article {
+	width: 33.33%;
+	float: left;
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+
+main section article img {
+	width: 100%;
+	display: block;
+	margin: 0;
+
+	border-radius: 5px 5px 0 0;
+}
+
+
+main section article .contenu {
+	border: 1px solid #b1b1b1;
+	padding: 20px;
+	border-radius: 0 0 5px 5px;
+}
+/* page d'authentification */
+
+.authentification {
+margin: 200px;
+}
+
+
+
+/* footer */
+
+footer {
+	clear: both;
+	background-color: #25190A;
+	padding: 30px 0;
+	color: #B9B9B9;
+}
+
+footer a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: #B9B9B9;
+}
+
+
+
+
+/* responsive */
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+	.banniere {
+		padding-bottom: 50px;
+	}
+	.banniere header .logo {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.banniere header nav {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.banniere header nav a {
+		margin: 0;
+		margin: 0 10px;
+	}
+	.banniere h1, .banniere p {
+		width: 100%;
+	}
+	.banniere h1 {
+		font-size: 32px;
+		margin-top: 80px;
+	}
+    /* page 2 */
+	main section article {
+		width: 100%;
+		float: none;
+	}
+
+
+    /* footer */
+	footer {
+		text-align: center; 
+	}
+
+	footer a {
+		display: block;
+		margin: 0; 
+	}
+
+}
+
